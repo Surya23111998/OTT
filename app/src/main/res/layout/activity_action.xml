@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" tools:context=".ActionActivity">
+
+
+   <SearchView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/searchView"
+       android:iconifiedByDefault="false"
+       android:queryHint="Search by Genre"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="All"
+            android:id="@+id/allFilter"
+            android:layout_height="match_parent"
+            android:onClick="allFilterTapped"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Action"
+            android:id="@+id/action"
+            android:layout_height="match_parent"
+            android:onClick="actionFilterTapped"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Comedy"
+            android:id="@+id/comedy"
+            android:layout_height="match_parent"
+            android:onClick="ComedyFilterTapped"
+            />
+
+
+
+    </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp" />
+
+
+    </LinearLayout>

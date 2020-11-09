@@ -52,17 +52,17 @@ public class MainActivity2 extends AppCompatActivity {
 
     private void showData() {
 
-//        userModelList.add(new UserModel("Knocked Up", "2007", R.mipmap.ic_launcher_round,"Genre: Comedy,Romance","Rating: 6.9/10"));
-//        userModelList.add(new UserModel("Avatar", "2009", R.mipmap.ic_launcher_round,"Genre: Adventure","Rating: 7.8/10"));
-//        userModelList.add(new UserModel("Jumanji", "1995", R.mipmap.ic_launcher_round,"Genre: Family","Rating: 7.0/10"));
-//        userModelList.add(new UserModel("Batman Begins", "2005", R.mipmap.ic_launcher_round,"Genre: Action","Rating: 8.2/10"));
-//        userModelList.add(new UserModel("Iron Man", "2008", R.mipmap.ic_launcher_round,"Genre: Action","Rating: 7.9/10"));
-//        userModelList.add(new UserModel("Casino Royale", "2006", R.mipmap.ic_launcher_round,"Genre: Action","Rating: 8.0/10"));
-//        userModelList.add(new UserModel("Hot Tub Time Machine", "2010", R.mipmap.ic_launcher_round,"Genre: Sci-Fi","Rating: 6.4/10"));
-//        userModelList.add(new UserModel("Due Date", "2010", R.mipmap.ic_launcher_round,"Genre: Comedy","Rating: 6.5/10"));
-//        userModelList.add(new UserModel("Good Will Hunting", "1997", R.mipmap.ic_launcher_round,"Genre: Romance","Rating: 8.3/10"));
-//        userModelList.add(new UserModel("Easy A", "2010", R.mipmap.ic_launcher_round,"Genre: Drama","Rating: 7.0/10"));
-//        userModelList.add(new UserModel("Frequency", "2000", R.mipmap.ic_launcher_round,"Genre: Mystery","Rating: 7.3/10"));
+//       ("Knocked Up", "2007", R.mipmap.ic_launcher_round,"Genre: Comedy,Romance","Rating: 6.9/10"));
+//       ("Avatar", "2009", R.mipmap.ic_launcher_round,"Genre: Adventure","Rating: 7.8/10"));
+//       ("Jumanji", "1995", R.mipmap.ic_launcher_round,"Genre: Family","Rating: 7.0/10"));
+//       ("Batman Begins", "2005", R.mipmap.ic_launcher_round,"Genre: Action","Rating: 8.2/10"));
+//       ("Iron Man", "2008", R.mipmap.ic_launcher_round,"Genre: Action","Rating: 7.9/10"));
+//       ("Casino Royale", "2006", R.mipmap.ic_launcher_round,"Genre: Action","Rating: 8.0/10"));
+//       ("Hot Tub Time Machine", "2010", R.mipmap.ic_launcher_round,"Genre: Sci-Fi","Rating: 6.4/10"));
+//       ("Due Date", "2010", R.mipmap.ic_launcher_round,"Genre: Comedy","Rating: 6.5/10"));
+//       ("Good Will Hunting", "1997", R.mipmap.ic_launcher_round,"Genre: Romance","Rating: 8.3/10"));
+//       ("Easy A", "2010", R.mipmap.ic_launcher_round,"Genre: Drama","Rating: 7.0/10"));
+//       ("Frequency", "2000", R.mipmap.ic_launcher_round,"Genre: Mystery","Rating: 7.3/10"));
 
 
 

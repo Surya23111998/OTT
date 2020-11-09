@@ -122,6 +122,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> impl
         holder.myImage.setImageResource(R.mipmap.ic_launcher_round);
         holder.genre.setText(movieList.getGenre());
         holder.rating.setText(movieList.getRating());
+        holder.language.setText(movieList.getLanguage());
 
 
     }
@@ -134,7 +135,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> impl
 
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        TextView myText1,myText2,genre,rating;
+        TextView myText1,myText2,genre,rating,language;
         ImageView myImage;
 
         public MyViewHolder(@NonNull View itemView) {
@@ -145,6 +146,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> impl
             myImage = itemView.findViewById(R.id.myImageView);
             genre = itemView.findViewById(R.id.genre);
             rating = itemView.findViewById(R.id.rating);
+            language = itemView.findViewById(R.id.language);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
